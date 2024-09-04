@@ -85,15 +85,14 @@ applicable for given VM virtualization mode).
 gui-\*, gui-default-\*
 ^^^^^^^^^^^^^^^^^^^^^^
 
-GUI daemon configuration. See `/etc/qubes/guid.conf` for a list of supported
-options.
+GUI daemon configuration. To change a given GUI option for a specific qube,
+set the `gui-{option}` feature. To change a given GUI option globally,
+set the `gui-default-{option}` feature on the GuiVM for that qube.
 
-To change a given GUI option for a specific qube, set the `gui-{option}`
-feature (with underscores replaced with dashes). For example, to enable
-`allow_utf8_titles` for a qube, set `gui-allow-utf8-titles` to `True`.
+gui-allow-fullscreen
+""""""""""""""""""""
 
-To change a given GUI option globally, set the `gui-default-{option}` feature
-on the GuiVM for that qube.
+Sample text
 
 input-dom0-proxy
 ^^^^^^^^^^^^^^^^
