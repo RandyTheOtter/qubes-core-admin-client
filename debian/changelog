@@ -1,3 +1,9 @@
+qubes-core-admin-client (4.3.29-1) unstable; urgency=medium
+
+  * tools: fix qvm-run -u root on template imported from R4.2
+
+ -- Marek Marczykowski-Górecki <marmarek@invisiblethingslab.com>  Mon, 23 Feb 2026 03:48:33 +0100
+
 qubes-core-admin-client (4.3.28-1) unstable; urgency=medium
 
   [ Ben Grande ]
