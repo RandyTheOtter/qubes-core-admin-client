@@ -27,14 +27,14 @@ from qubesadmin.vm import QubesVM
 
 class BackupApp:
     '''Interface for backup collection'''
-    def __init__(self, qubes_xml: str | None):
+    def __init__(self, qubes_xml: str):
         '''Initialize BackupApp object and load qubes.xml into it'''
         self.store = qubes_xml
         self.domains = {}
         self.globals = {}
         self.load()
 
-    def load(self) -> bool | None:
+    def load(self) -> None:
         '''Load qubes.xml'''
         raise NotImplementedError
 
