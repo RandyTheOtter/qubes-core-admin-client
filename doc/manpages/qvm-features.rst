@@ -181,6 +181,21 @@ avoid calling `qubes.SetMonitorLayout` in this qube.
 
 Default: send monitor layout
 
+no-default-kernelopts
+^^^^^^^^^^^^^^^^^^^^^
+
+When set, qube is started without default kernel options, which include 
+``root=...``. Set your own options via ``qvm-prefs kernelopts``
+
+Default: start with default kernel options
+
+no-nomodeset
+^^^^^^^^^^^^
+
+Omits ``nomodeset`` from default kernel options.
+
+Default: start with ``nomodeset`` kernel option.
+
 internal
 ^^^^^^^^
 
@@ -572,3 +587,4 @@ Authors
 | For complete author list see: https://github.com/QubesOS/qubes-core-admin-client.git
 
 .. vim: ts=3 sw=3 et tw=80
+
