@@ -194,7 +194,8 @@ no-nomodeset
 
 Omits ``nomodeset`` from default kernel options.
 
-Default: start with ``nomodeset`` kernel option.
+Default: start with ``nomodeset`` kernel option unless GPU is attached to the 
+qube.
 
 internal
 ^^^^^^^^
